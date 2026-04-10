@@ -1,5 +1,6 @@
 import React from "react";
 import aceLogo from "./assets/ace-logo.png";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function AceMedicalAssistant() {
   const { useMemo, useState } = React;
@@ -76,6 +77,7 @@ export default function AceMedicalAssistant() {
         )}
         {page === "reference" && <ReferencePage />}
       </div>
+      <Analytics />
     </div>
   );
 }

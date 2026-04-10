@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from '@vercel/analytics/react';
 import aceLogo from "./assets/ace-logo.png";
 
 export default function AceMedicalAssistant() {
@@ -76,6 +77,7 @@ export default function AceMedicalAssistant() {
         )}
         {page === "reference" && <ReferencePage />}
       </div>
+      <Analytics />
     </div>
   );
 }

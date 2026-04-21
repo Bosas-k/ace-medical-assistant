@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from '@vercel/analytics/react';
 import aceLogo from "./assets/ace-logo.png";
 import { Analytics } from "@vercel/analytics/react";
 
